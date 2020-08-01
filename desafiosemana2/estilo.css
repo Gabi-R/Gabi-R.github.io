@@ -1,0 +1,146 @@
+html, body{
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header{
+    background-color: #84817a;
+    color: white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+#logo{
+    width: 2.8%;
+    margin-top: 1%;
+    margin-left: 1.5%;
+}
+
+#menu{
+    border: 2px;
+    float: right;
+    margin-right: 3%;
+    list-style: none;
+    margin-top: 0;
+}
+
+li{
+    border: 2px;
+    float: left;
+    padding: 20px 10px 20px 10px;
+}
+
+li:hover{
+    background-color:#aaa69d;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#Infraestrutura{
+    background: url(img/infraestrutura.jpg);
+    background-size: 1500px;
+    height: 730px;
+    text-align: center;
+    padding: 30px;
+}
+
+#título{
+    color:white;
+    padding-top: 20%;
+    font-size: 50px;
+    line-height: 0.6;    
+}
+
+#subtitulo{
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 20px;
+}
+
+#acao{
+    color: white;
+    border: 1px white solid;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+#importancia{ 
+    color: black;
+    padding: 30px;
+}
+
+#Objetivos{
+    color:black;
+    padding: 30px;
+}
+
+.img{
+    width: 70%;
+}
+
+.coluna{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+}
+
+.colunaquatro{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 15%;
+}
+
+.colunatres{
+    float: left;
+    padding: 0 2%;
+    position: relative;
+    width: 29%;
+}
+
+.justificado{
+    text-align: justify;
+}
+
+.centralizado{
+    text-align: center;
+}
+
+.icone{
+    width: 30%;
+}
+
+section{
+    padding: 20px;
+    float: left;
+}
+
+.topo{
+    margin-top: 20%;
+}
+
+footer{
+    background-color:  #84817a;
+    float: left;
+    width: 100%;
+}
+
+#acaodois{
+    color: black;
+    border: 1px black solid;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
